@@ -259,9 +259,9 @@ An example starting configuration is:
 | Resource         | Configuration |
 | ---------------- | ------------- |
 | Operating System | Kali Linux    |
-| CPU              | 2-4 Cores     |
-| RAM              | 4-8 GB        |
-| Storage          | 40-80 GB      |
+| CPU              | 4 Cores       |
+| RAM              | 4 GB.         |
+| Storage          | 64 GB.        |
 | Network Bridge   | vmbr1         |
 | Network Model    | VirtIO        |
 
