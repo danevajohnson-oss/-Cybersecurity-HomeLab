@@ -59,9 +59,7 @@ Download the latest Proxmox VE ISO from the official Proxmox website.
 
 The ISO is then written to a USB drive using an imaging utility such as:
 
-* Rufus
-* balenaEtcher
-* Ventoy
+* balenaEtcher (I am using a Mac)
 
 The computer that will become the Proxmox server is booted from this USB drive.
 
