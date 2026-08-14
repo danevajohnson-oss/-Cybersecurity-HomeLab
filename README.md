@@ -363,20 +363,16 @@ Kali VM
 I can give the snapshot a descriptive name such as:
 
 ```text
-clean-install
-```
-
-or:
-
-```text
-kali-base
+CleanInstallKali
 ```
 
 Description:
 
 ```text
-Clean Kali Linux installation with networking configured and system fully updated.
+This is the starting point
 ```
+
+![image alt]()
 
 This gives me a known-good state that I can return to if I break the VM while experimenting.
 
