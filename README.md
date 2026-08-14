@@ -55,6 +55,8 @@ Before building the lab, I downloaded the software required for the initial inst
 
 ## Proxmox VE
 
+![image alt](https://github.com/danevajohnson-oss/-Cybersecurity-HomeLab/blob/5645747c9c3a85c035b3a7cb1fbc5f4d892dbd63/Proxmox.png)
+
 Download the latest Proxmox VE ISO from the official Proxmox website.
 
 The ISO is then written to a USB drive using an imaging utility such as:
@@ -66,6 +68,8 @@ The computer that will become the Proxmox server is booted from this USB drive.
 ---
 
 ## Kali Linux
+
+![image alt](https://github.com/danevajohnson-oss/-Cybersecurity-HomeLab/blob/5645747c9c3a85c035b3a7cb1fbc5f4d892dbd63/Kali%20Site%20for%20ISO.png)
 
 Kali Linux will be my primary cybersecurity workstation.
 
@@ -213,6 +217,7 @@ A typical configuration conceptually looks like:
 ```bash
 iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o vmbr0 -j MASQUERADE
 ```
+![image alt](https://github.com/danevajohnson-oss/-Cybersecurity-HomeLab/blob/5645747c9c3a85c035b3a7cb1fbc5f4d892dbd63/Proxmox%20NAT%20VMBR1.png)
 
 > **Note:** The exact firewall/NAT configuration can vary depending on the Proxmox version and whether the Proxmox firewall, `iptables`, or `nftables` is being used. The configuration should be verified before applying it permanently.
 
