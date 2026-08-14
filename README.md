@@ -6,6 +6,8 @@ As part of developing my practical cybersecurity skills, I decided to build a de
 
 For the lab, I am using **Proxmox Virtual Environment (Proxmox VE)** as the hypervisor installed on a dedicated physical computer.
 
+![image alt](https://github.com/danevajohnson-oss/-Cybersecurity-HomeLab/blob/aa92ad2b8dd83abca6933ee402a47646851746b6/Kali%20Installed.png)
+
 The basic design of the lab is:
 
 ```text
