@@ -372,7 +372,7 @@ Description:
 This is the starting point
 ```
 
-![image alt]()
+![image alt](https://github.com/danevajohnson-oss/-Cybersecurity-HomeLab/blob/8dcbfb0c9e9f7320bfd385c229a4c38c236aaace/Snapshot%20of%20Kali.png)
 
 This gives me a known-good state that I can return to if I break the VM while experimenting.
 
